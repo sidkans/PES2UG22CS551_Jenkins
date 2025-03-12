@@ -1,4 +1,3 @@
-
 pipeline {
     agent any
     
@@ -28,6 +27,8 @@ pipeline {
     post {
         failure {
             echo 'Pipeline failed'
-        }
-    }
+        }
+    }
 }
+
+CC Lab use this code and change SRN
